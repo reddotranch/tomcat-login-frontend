@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.form-container {
+  max-width: 350px;
+  margin: 60px auto;
+  padding: 30px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.form-container input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+
+.form-container button {
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background: #1565c0;
+}
